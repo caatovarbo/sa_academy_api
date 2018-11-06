@@ -1,14 +1,12 @@
 export const studentsTypeDef = `
 type Student {
     code: Int!
-    name: String!
-    credits: Int!
-    professor: String!
+    username: String!
+    password: Int!
 }
 input StudentInput {
-    name: String!
-    credits: Int!
-    professor: String!
+    username: String!
+    password: Int!
 }`;
 
 export const studentsQueries = `

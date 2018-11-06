@@ -2,11 +2,11 @@ export const studentsTypeDef = `
 type Student {
     code: Int!
     username: String!
-    password: Int!
+    password: String!
 }
 input StudentInput {
     username: String!
-    password: Int!
+    password: String!
 }`;
 
 export const studentsQueries = `
